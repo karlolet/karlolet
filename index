@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>PORTFOLIO</title>
+     <link rel="stylesheet" href="style.css">
+     
+</head>
+<body>
+     <nav class="navbar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#sports">SPORTS</a></li>
+            <li><a href="#contact">CONTACT ME</a></li>
+        </ul>
+     </nav>
+     <nav class="navbar">
+    </nav>
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I AM <br> JOHN CHUA</h1>
+            <button class="btn">
+                This is me
+            </button>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+        <img src="jb3.jpg.jpg" alt="">
+        <div id="intro">
+            <h2>JOHN CHUA</h2>
+            <p> Hi, I'm John Bennydict Chua or JB for short.I live in brgy. Panghulo Malabon City. i have 2 siblings, Lovely Jazz Chua (18yrs old) and Miracle Joy Chua (12 yrs old). I loved playing basketball and mobile legends. I always dreamed of being a PBA players soon. I am a very cheerful type of person and also i'm the one who's bringing the joy in our house whenever there's a problem. I currently watching Demons Slayer and Black Clover. I have 2yrs Girlfriend. I want to marry her someday. Her name is Jasriel Ann Fame </p>
+          </div>  
+    </section>
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+        <img src="bca.jpg" alt="">
+        <img src="slam.jpg" alt="">
+        <img src="hxh.jpg" alt="">
+        <img src="ball.jfif" alt="">
+        <img src="demon.jfif" alt="">
+        <img src="wanwan.jfif" alt="">
+            
+        </div>
+    </section>
+    <section id="sports">
+        <h1 class="headings">SPORTS</h1>
+        <div class="row">
+            <div class="box">
+                <img src="img2.jfif" alt="">
+                <h1 class="headings">BASKETBALL</h1>
+                <p>Basketball is a game played between two teams of five players each on a rectangular court, usually indoors. Each team tries to score by tossing the ball through the opponent’s goal, an elevated horizontal hoop and net called a basket.</p>
+            </div>
+            <div class="box">
+                <img src="img3.jpg" alt="">
+                <h1 class="headings">VOLLEYBALL</h1>
+                <p>volleyball, game played by two teams, usually of six players on a side, in which the players use their hands to bat a ball back and forth over a high net, trying to make the ball touch the court within the opponents’ playing area before it can be returned. To prevent this a player on the opposing team bats the ball up and toward a teammate before it touches the court surface—that teammate may then volley it back across the net or bat it to a third teammate who volleys it across the net. A team is allowed only three touches of the ball before it must be returned over the net.</p>
+            </div>
+            <div class="box">
+                <img src="img1.jpg" alt="">
+                <h1 class="headings">SOCCER</h1>
+                <p>
+                    a game played by two teams of eleven players with a round ball that may not be touched with the hands or arms during play except by the goalkeepers. The object of the game is to score goals by kicking or heading the ball into the opponents' goal</p>
+            </div>
+
+
+
+        </div>
+    </section>
+   <section id="contact">
+             <h1 class="headings">CONTACT</h1>
+             <form action="" class="form">
+             <input type="text" name="name" class="input" placeholder="Enter Your Name">
+             <input type="email" name="email" class="input" placeholder="Enter Your Email">
+             <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+             <input type="submit" value="SEND" id="send">
+
+
+
+             </form>
+             </section>
+
+
+
+    </contact>
+
+
+
+
+
+
+
+
+</body>
+</html>
